@@ -1,0 +1,77 @@
+h1 {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 20px;
+  font-size: 70px;
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+h2:hover {
+  text-decoration: underline;
+  padding-bottom: 5px;
+  background-color: black;
+  color: white;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  padding-top: 30px;
+}
+li {
+  display: inline;
+  margin: 0 30px;
+}
+a {
+  text-decoration: none;
+}
+img {
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+img:hover {
+  background-color: black;
+  margin: 1px;
+  border-radius: 10px;
+}
+.hand-gave {
+  text-decoration: none;
+}
+.guide {
+  margin-bottom: 35px;
+}
+
+p {
+  font-family: "Proxima Nova", "Verdana", "Avenir Next";
+  text-align: justify;
+  margin: 40px 70px;
+  line-height: 1.5;
+}
+button {
+  font-size: 30px;
+  display: block;
+  margin: 0 auto;
+  color: black;
+  background-color: rgb(250, 235, 215);
+  border: 2px solid black;
+  padding: 20px;
+}
+button:hover {
+  background-color: black;
+  color: rgb(250, 235, 215);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.coded {
+  font-size: 40px;
+  font-family: monospace;
+  color: grey;
+  text-align: center;
+  padding: 45;
+}
